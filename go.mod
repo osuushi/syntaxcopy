@@ -1,4 +1,4 @@
-module syntaxcopy
+module github.com/osuushi/syntaxcopy
 
 go 1.16
 
