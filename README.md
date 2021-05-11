@@ -2,6 +2,12 @@
 
 This is a very hacky solution to syntax highlighting in Google Docs.
 
+## Installation
+
+Requires go 1.16. Run:
+
+`go install github.com/osuushi/syntaxcopy@latest`
+
 ## Usage
 
 First, copy a block of code onto your clipboard. By default, syntaxcopy will try to infer the language using [go-enry](https://github.com/go-enry/go-enry), but it isn't very accurate. You can force a specific language by adding a line like `#!go` before your block.
